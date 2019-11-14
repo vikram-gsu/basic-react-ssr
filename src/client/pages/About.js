@@ -1,10 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
 
+const AboutDiv = styled.div`
+    color: red;
+`;
 function About() {
     return (
-        <div>
+        <AboutDiv>
             About
-        </div>
+        </AboutDiv>
     )
 }
 
